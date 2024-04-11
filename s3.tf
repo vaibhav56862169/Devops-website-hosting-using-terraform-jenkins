@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "example_bucket" {
+resource "aws_s3_bucket" "mybucket" {
   bucket = var.mybucket.id
 
   versioning {
